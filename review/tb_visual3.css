@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Review Assignment
+   
+   Design Style Sheet for Tree and Book Family Home Page
+   Author: Joel Mendivil
+   Date: 10/3/19  
+   
+   Filename: tb_visual3.css
+
+*/
+
+/* HTML Styles */
+html{
+    background-image: url(tb_back5.png);
+}
+/* Page Body Styles */
+body{
+    border-left: 3px solid rgb(169,130,88);
+    border-right: 3px solid rgb(169,130,88); 
+    /* Step 8 */
+}
+
+
+/* Main Styles */
+
+
+
+/* Figure Box Styles */
+
+
+
+/* Article Styles */
+
+
+
+/* Footer Styles */
+
