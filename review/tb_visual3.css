@@ -15,27 +15,59 @@
 
 /* HTML Styles */
 html{
-    background-image: url(tb_back5.png);
+   background-image: url(tb_back5.png);
 }
 /* Page Body Styles */
 body{
-    border-left: 3px solid rgb(169,130,88);
-    border-right: 3px solid rgb(169,130,88); 
-    /* Step 8 */
+   border-left: 3px rgb(169,130,88) solid;
+   border-right: 3px rgb(169,130,88) solid;
+   box-shadow: 25px 0px 35px rgb(53,21,0),
+   -25px 0px 35px rgb(53,21,0);
 }
-
-
 /* Main Styles */
-
-
-
+main{
+   background-image: url(tb_back6.png);
+   background-size: 100%; 
+   background-repeat: no-repeat;
+   background-clip: padding-box;
+   box-shadow: rgb(71,71,71) -10px -10px 25px,
+   rgb(71,71,71) 10px 10px 25px;
+}
+main h1{
+   text-shadow: rgb(221,221,221) 1px 1px 0px, 
+   rgba(41,41,41,0.9) 5px 5px 20px;
+}
 /* Figure Box Styles */
-
-
-
+figure{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%
+}
+figure img{
+   border: 25px solid;
+   border-image: url(tb_frame.png) 60px stretch;
+   display: block;
+   width: 100%;
+   filter: sepia(80%);
+   -webkit-filter: sepia(80%);
+}
+figcaption{
+   font-family: 'Palatino Linotype', 'Palatino', 'Times New Roman', serif;
+   font-style: italic;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+   text-align: center;
+}
 /* Article Styles */
-
-
+article{
+   background-image: url(tb_back6.png) bottom right
+   /15% no-repeat;
+   border: rgb(147,116,68) 8px double;
+}
 
 /* Footer Styles */
 
